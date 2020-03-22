@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Cadastro.Domain", "src\TMSA.RentCar.Cadastro.Domain\TMSA.RentCar.Cadastro.Domain.csproj", "{64C7DA48-5FCD-4D81-ACEA-8D545C66BDE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Core.Domain", "src\TMSA.RentCar.Core.Domain\TMSA.RentCar.Core.Domain.csproj", "{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C7DA48-5FCD-4D81-ACEA-8D545C66BDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C7DA48-5FCD-4D81-ACEA-8D545C66BDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C7DA48-5FCD-4D81-ACEA-8D545C66BDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C7DA48-5FCD-4D81-ACEA-8D545C66BDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
