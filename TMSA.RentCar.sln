@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Cadastro.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Core.Domain", "src\TMSA.RentCar.Core.Domain\TMSA.RentCar.Core.Domain.csproj", "{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Core.Infra", "src\TMSA.RentCar.Infra\TMSA.RentCar.Core.Infra.csproj", "{C61D26FE-8F73-4C4C-A8B0-E7F210797354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Cadastro.Data", "src\TMSA.RentCar.Cadastro.Data\TMSA.RentCar.Cadastro.Data.csproj", "{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Cadastro.Data", "src\TMSA.RentCar.Cadastro.Data\TMSA.RentCar.Cadastro.Data.csproj", "{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Core.Infra", "src\TMSA.RentCar.Core.Infra\TMSA.RentCar.Core.Infra.csproj", "{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
