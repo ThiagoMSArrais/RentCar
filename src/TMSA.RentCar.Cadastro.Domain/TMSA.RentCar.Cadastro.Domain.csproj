@@ -9,16 +9,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Clientes\Validations\" />
-    <Folder Include="Clientes\Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="DomainValidation" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TMSA.RentCar.Core.Domain\TMSA.RentCar.Core.Domain.csproj" />
+    <ProjectReference Include="..\TMSA.RentCar.Infra\TMSA.RentCar.Core.Infra.csproj" />
   </ItemGroup>
 
 </Project>

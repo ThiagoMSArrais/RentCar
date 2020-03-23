@@ -40,7 +40,7 @@ namespace TMSA.RentCar.Core.Domain.ValueObjects
             Regex regex = new Regex(pattern);
 
             return (!regex.IsMatch(stringValue)) ?
-                new DomainNotification("AssertArgumentLength", message);
+                new DomainNotification("AssertArgumentLength", message) : null;
         }
 
         public static DomainNotification AssertNotNullOrEmpty(string stringValue, string message)

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Cadastro.Domain", "src\TMSA.RentCar.Cadastro.Domain\TMSA.RentCar.Cadastro.Domain.csproj", "{64C7DA48-5FCD-4D81-ACEA-8D545C66BDE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Cadastro.Domain", "src\TMSA.RentCar.Cadastro.Domain\TMSA.RentCar.Cadastro.Domain.csproj", "{64C7DA48-5FCD-4D81-ACEA-8D545C66BDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Core.Domain", "src\TMSA.RentCar.Core.Domain\TMSA.RentCar.Core.Domain.csproj", "{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Core.Domain", "src\TMSA.RentCar.Core.Domain\TMSA.RentCar.Core.Domain.csproj", "{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Core.Infra", "src\TMSA.RentCar.Infra\TMSA.RentCar.Core.Infra.csproj", "{C61D26FE-8F73-4C4C-A8B0-E7F210797354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Cadastro.Data", "src\TMSA.RentCar.Cadastro.Data\TMSA.RentCar.Cadastro.Data.csproj", "{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0DEDD3F-D3B1-4DE2-92F0-36562F2BE335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61D26FE-8F73-4C4C-A8B0-E7F210797354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D28E745-91BB-47FE-BDCB-0D01E8CF306C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
