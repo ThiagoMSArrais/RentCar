@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Cadastro.Data"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMSA.RentCar.Core.Infra", "src\TMSA.RentCar.Core.Infra\TMSA.RentCar.Core.Infra.csproj", "{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSA.RentCar.Cadastro.Infra.IoC", "src\TMSA.RentCar.Cadastro.Infra.IoC\TMSA.RentCar.Cadastro.Infra.IoC.csproj", "{DE01F4F1-30AB-499A-9D9C-B87AB982CE91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{077A008D-2EE7-4DD0-9FC3-C2B3B7DD7B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE01F4F1-30AB-499A-9D9C-B87AB982CE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE01F4F1-30AB-499A-9D9C-B87AB982CE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE01F4F1-30AB-499A-9D9C-B87AB982CE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE01F4F1-30AB-499A-9D9C-B87AB982CE91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

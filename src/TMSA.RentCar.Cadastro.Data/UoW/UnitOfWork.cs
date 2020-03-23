@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using TMSA.RentCar.Cadastro.Data.Context;
 using TMSA.RentCar.Cadastro.Data.Interfaces;
 
 namespace TMSA.RentCar.Cadastro.Data.UoW
@@ -29,6 +27,11 @@ namespace TMSA.RentCar.Cadastro.Data.UoW
                     _clienteContext = null;
                 }
             }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
         }
     }
 }

@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System.IO;
 using TMSA.RentCar.Cadastro.Domain.Clientes;
 
 namespace TMSA.RentCar.Cadastro.Data.Context

@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TMSA.RentCar.Core.Domain\TMSA.RentCar.Core.Domain.csproj" />
+    <ProjectReference Include="..\TMSA.RentCar.Core.Infra\TMSA.RentCar.Core.Infra.csproj" />
     <ProjectReference Include="..\TMSA.RentCar.Infra\TMSA.RentCar.Core.Infra.csproj" />
   </ItemGroup>
 
